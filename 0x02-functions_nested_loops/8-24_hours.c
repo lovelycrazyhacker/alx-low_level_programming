@@ -6,10 +6,11 @@
  * Return: void
  */
 
-void jack_bauer(void)
+Return: void
 {
 	int x = 0;
 	int a = 0, b = 0, c = 0, d = 0;
+
 
 	while (x < 1440)
 	{
@@ -26,7 +27,7 @@ void jack_bauer(void)
 			d = 0;
 			c++;
 		}
-		if (c > 5);
+		if (c > 5)
 		{
 			c = 0;
 			b++;
@@ -36,6 +37,6 @@ void jack_bauer(void)
 			b = 0;
 			a++;
 		}
-		x++;
+		a++;
 	}
 }
