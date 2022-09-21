@@ -2,7 +2,7 @@
 
 /**
  * puts_half - prints the second half of a given string
- *  @str: passed string pointer
+ * @str: passed string pointer
  *
  * Return: void
  */
@@ -10,7 +10,7 @@ void puts_half(char *str)
 {
 	int len = 0;
 
-	void puts_half(char *str)
+	while (*(str + len) != '\0')
 		len++;
 	if (len % 2 == 0)
 		len /= 2;
