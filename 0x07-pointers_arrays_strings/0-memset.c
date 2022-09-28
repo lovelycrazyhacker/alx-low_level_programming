@@ -5,7 +5,7 @@
  *
  * @s: pointer to string
  * @b: constant byte
- * @n: first byte to change
+ * @n: first bytes to change
  * Return: pointer to modified string
  */
 char *_memset(char *s, char b, unsigned int n)
@@ -14,5 +14,5 @@ char *_memset(char *s, char b, unsigned int n)
 
 	for (i = 0; i < n; i++)
 		s[i] = b;
-	return (s):
+	return (s);
 }
