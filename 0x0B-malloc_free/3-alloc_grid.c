@@ -4,6 +4,7 @@
  * **alloc_grid - dynamically create 2d array and initialize each element to 0
  * @width: no. of columns
  * @height: no. of rows
+ *
  * Return: pointer to the 2d array or NULL if failure occurs
  */
 int **alloc_grid(int width, int height)
